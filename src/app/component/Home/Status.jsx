@@ -12,8 +12,8 @@ const Status = () => {
   const [counters, setCounters] = useState(stats.map(() => 0));
 
   useEffect(() => {
-    const duration = 2000; // animation duration in ms
-    const intervalTime = 20; // interval in ms
+    const duration = 2000; 
+    const intervalTime = 20; 
     const steps = duration / intervalTime;
 
     const increments = stats.map((stat) => stat.value / steps);
@@ -43,9 +43,9 @@ const Status = () => {
   return (
     <section className="bg-white relative px-4 py-8">
       <div className="
-        max-w-7xl mx-auto flex flex-wrap justify-between gap-6
+        max-w-7xl mx-auto flex flex-wrap justify-between gap-15
         bg-white rounded-md shadow-lg shadow-gray-300
-        relative lg:absolute lg:ml-60 lg:mt-[-113px] lg:px-14
+        relative lg:absolute lg:ml-50 lg:mt-[-113px] lg:px-14
       ">
         {stats.map((stat, index) => (
           <div
