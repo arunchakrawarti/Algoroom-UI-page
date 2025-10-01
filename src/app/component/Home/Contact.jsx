@@ -30,7 +30,7 @@ const Contact = () => {
 
         {/* Right Section */}
         <div
-          className="lg:w-[40vw] w-full bg-[#2e7eed] mt-8 lg:mt-12 rounded-xl z-50 h-auto lg:h-[80vh] flex flex-col px-6 sm:px-12 lg:pl-20 py-10 lg:pt-16 text-center lg:text-left"
+          className="lg:w-[40vw] w-full bg-[#2e7eed] mt-8 lg:mt-12 rounded-xl h-auto lg:h-[80vh] flex flex-col px-6 sm:px-12 lg:pl-20 py-10 lg:pt-16 text-center lg:text-left"
           style={{ animation: "slideFromRight 1s ease-out forwards" }}
         >
           <h1 className="text-2xl sm:text-3xl text-center lg:text-4xl text-white font-bold mb-6">

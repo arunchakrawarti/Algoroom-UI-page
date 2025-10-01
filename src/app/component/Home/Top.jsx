@@ -3,7 +3,7 @@ import React from "react";
 const Top = () => {
   return (
     <div
-      className="bg-gradient-to-r from-blue-900 to-blue-400 mt-3 relative  h-auto sm:h-[450px] md:h-[600px] rounded-bl-sm [clip-path:polygon(0_0,100%_0,100%_20%,100%_89%,77%_100%,19%_100%,0_87%,0%_20%)]"
+      className="bg-gradient-to-r  from-blue-900 to-blue-400 mt-11 relative  h-auto sm:h-[450px] md:h-[600px] rounded-bl-sm [clip-path:polygon(0_0,100%_0,100%_20%,100%_89%,77%_100%,19%_100%,0_87%,0%_20%)]"
     >
       {/* Wrapper */}
       <div className="absolute inset-0 flex flex-col md:flex-row items-center md:items-center justify-between px-4 sm:px-8 md:px-16 lg:px-24">

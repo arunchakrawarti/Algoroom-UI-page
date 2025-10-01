@@ -24,7 +24,7 @@ const Plan1 = () => {
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>No Strategy Deployment (Live & Forward)</li>
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>No Portfolio Backtesting</li>
         </ul>
-        <button className="mt-10 bg-blue-600 font-normal text-base leading-6 font-[Open_Sans] text-white py-2 px-12 rounded-3xl shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
+        <button className="mt-10 bg-blue-600 hover:bg-blue-950 font-normal text-base leading-6 font-[Open_Sans] text-white py-2 px-12 rounded-3xl shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
           GET STARTED
         </button>
       </div>
@@ -49,7 +49,7 @@ const Plan1 = () => {
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>20 Strategy Deployment (Live & Forward)</li>
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>10 Portfolio Backtesting</li>
         </ul>
-        <button className="mt-10 bg-blue-600 py-2 px-12 text-white rounded-3xl font-normal text-base leading-6 font-[Open_Sans] shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
+        <button className="mt-10 bg-blue-600 py-2 px-12 hover:bg-blue-950 text-white rounded-3xl font-normal text-base leading-6 font-[Open_Sans] shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
           GET STARTED
         </button>
       </div>
@@ -74,7 +74,7 @@ const Plan1 = () => {
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>15 Strategy Deployment (Live & Forward)</li>
           <li className='leading-[25px] mt-5'><span className='pr-2 text-blue-800 font-extrabold'>✔</span>8 Portfolio Backtesting</li>
         </ul>
-        <button className="mt-10 bg-blue-600 py-2 px-12 text-white rounded-3xl font-normal text-base leading-6 font-[Open_Sans] shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
+        <button className="mt-10 bg-blue-600 py-2 px-12 hover:bg-blue-950 text-white rounded-3xl font-normal text-base leading-6 font-[Open_Sans] shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
           GET STARTED
         </button>
       </div>
