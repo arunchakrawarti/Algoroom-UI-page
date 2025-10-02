@@ -1,10 +1,11 @@
 import React from "react";
+import Input from "../atom/Input";
+import Textarea from "../atom/Textarea";
 
 const Contact = () => {
   return (
     <section className="mt-5 sm:px-6 lg:px-16 py-10">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
-        
         {/* Left Section */}
         <div
           className="lg:w-[60vw] w-full h-auto lg:h-[95vh] bg-gradient-to-tr from-blue-300 to-blue-900 flex flex-col justify-start pt-10 px-6 lg:pt-36 lg:pl-20 [clip-path:polygon(20%_0%,89%_1%,100%_13%,100%_89%,75%_99%,0_100%,0%_80%,0_0)]"
@@ -37,23 +38,13 @@ const Contact = () => {
             Contact Us
           </h1>
 
-          <input
-            className="w-full sm:w-[350px] h-[50px] rounded-[25px] bg-[rgba(249,235,255,0.15)] border-none outline-none font-light px-[20px] mb-6 text-white text-[14px] mx-auto lg:mx-0"
-            type="text"
-            placeholder="Your name..."
+          
+          
+          <Input placeholder={"Your name..."}  type={"text"}/>
+          <Input placeholder={"Your email..."} type={"text"} />
+          <Textarea
+           placeholder={"Your message..."}
           />
-
-          <input
-            className="w-full sm:w-[350px] h-[50px] rounded-[25px] bg-[rgba(249,235,255,0.15)] border-none outline-none font-light px-[20px] text-[14px] text-white mb-6 mx-auto lg:mx-0"
-            type="email"
-            placeholder="Your email..."
-          />
-
-          <textarea
-            className="w-full sm:w-[350px] h-[120px] rounded-[25px] bg-[rgba(249,235,255,0.15)] border-none outline-none font-light px-[20px] pt-3 text-white text-[14px] mx-auto lg:mx-0"
-            rows="5"
-            placeholder="Your message..."
-          ></textarea>
 
           <button className="py-2 px-2 rounded-3xl transition w-[170px] mt-6 text-blue-600 bg-white mx-auto lg:mx-0">
             Send Message Now
@@ -79,4 +70,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

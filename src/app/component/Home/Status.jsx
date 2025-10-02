@@ -41,11 +41,11 @@ const Status = () => {
   };
 
   return (
-    <section className="bg-white relative px-4 py-8">
+    <section className="bg-white   relative px-4 py-8">
       <div className="
         max-w-7xl mx-auto flex flex-wrap justify-between gap-15
         bg-white rounded-md shadow-lg shadow-gray-300
-        relative lg:absolute lg:ml-50 lg:mt-[-113px] lg:px-14
+        relative  lg:absolute lg:ml-50 lg:mt-[-113px] lg:px-14
       ">
         {stats.map((stat, index) => (
           <div
